@@ -7,7 +7,7 @@ stack.append(7)
 stack.pop()
 stack.append(1)
 stack.append(4)
-stack.pop
+stack.pop()
 
 print(stack[::-1])
 print(stack)
