@@ -1,4 +1,5 @@
 #https://www.acmicpc.net/problem/1874
+<<<<<<< HEAD
 n=int(input())
 result=[]
 stack=[]
@@ -27,3 +28,5 @@ if stack[-1]!=0:
 else :
   for i in result:
     print(i)
+=======
+>>>>>>> 5346aa59f393b50968c9d55d0172f25adecb0819
