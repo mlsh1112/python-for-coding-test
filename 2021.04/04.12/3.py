@@ -3,20 +3,28 @@ input=sys.stdin.readline
 
 n=int(input())
 stack=[]
-stack.append('0')
-for _ in range(n):
-  ps=list(map(str,input()))
-  for i in range(len(ps)):
-    if ps[i]=='(':
+st_in=[]*n
+stack.append(0)
+for i in range(n):
+  st_in[i]=list(map(str,input()))
+
+for j in range(n):
+  no=0
+  for i in range(len(st_in[j])):
+    if st_in[j][i]=='(':
       stack.append('(')
-    else:
+    elif st_in[j][i]==')':
       if len(stack)==0:
-        stack.append('0')
+        no=1
         break
-      else:
+      else :
         stack.pop()
   
-  if len(stack)==0:
-    print('YES')
+  if no == 1 :
+    print("NO")
   else:
-    print('NO')
+    if len(stack)==1:
+      print("YES")
+    else:
+      print("NO")
+       
