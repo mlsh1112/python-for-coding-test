@@ -1,4 +1,12 @@
 language = "python3"
+<<<<<<< HEAD
 run = "python ./2021.04/04.16/9.py"
+=======
+<<<<<<< HEAD
+run = "python ./2021.04/04.14/6.py"
+=======
+run = "python ./2021.04/04.14/5.py"
+>>>>>>> bc9cc5c9068ad52cb16c394a31dd4fe0805d32d9
+>>>>>>> 36dbe5d2a1cd4979b24ca733d0729b559e117e09
 
 
