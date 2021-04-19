@@ -25,4 +25,3 @@ for i in line:
 
   
 print(result)
-

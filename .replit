@@ -1,7 +1,3 @@
 language = "python3"
-<<<<<<< HEAD
-run = "python ./2021.04/04.18/10.py"
-=======
-run = "python ./2021.04/04.17/9.py"
->>>>>>> c6d0edc12152a10810aabb3d0dc600f58b423c3f
+run = "python ./2021.04/04.19/11.py"
 
