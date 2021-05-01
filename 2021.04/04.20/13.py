@@ -1,9 +1,7 @@
 def solution(s):
     answer = []
     #{} 문자열 제거
-    slist=s.split('{{')[1]
-    slist=slist.split('}}')[0]
-    slist=slist.split('},{')
+    slist=s.lstrip('{').rstrip('}').split('},{')
     # 문자 길이 순서로 정렬
     slist.sort(key=lambda x:len(x))
     
