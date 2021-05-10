@@ -6,6 +6,10 @@ score.filter(x => x > 80)
 result.sort((a, b) => {
     return b-a;
     });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0ed1ab486a0c80c0365329800d8fc008a1f2f0b2
 
 function gcdlcm(a, b) {
     var answer = [];
@@ -42,3 +46,8 @@ const mapSort4 = new Map([...myMap.entries()].reverse());
 console.log(mapSort4);
 // Map(4) {"d" => 2, "b" => 1, "c" => 4, "a" => 3}
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cf019a59ac4882827fdfd1d0475dd61dc093ff0d
+>>>>>>> 0ed1ab486a0c80c0365329800d8fc008a1f2f0b2
