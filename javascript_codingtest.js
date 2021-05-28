@@ -6,6 +6,13 @@ score.filter(x => x > 80)
 result.sort((a, b) => {
     return b-a;
     });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0ed1ab486a0c80c0365329800d8fc008a1f2f0b2
+>>>>>>> 536625dcf62e423a0a5901b08fd182999e625d6e
 
 function gcdlcm(a, b) {
     var answer = [];
